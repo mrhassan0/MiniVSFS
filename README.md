@@ -9,6 +9,8 @@ the regular VSFS, MiniVSFS cuts a few corners:
 
 
 MKFS_BUILDER
+
+
 It performs the following tasks in order:
 1. Parse the command line inputs
 2. Create the file system according to the provided specifications
@@ -16,7 +18,9 @@ It performs the following tasks in order:
 
    
 MKFS_ADDER
-It should performs the following tasks in order:
+
+
+It performs the following tasks in order:
 1. Parse the command line inputs
 2. Open the input image as a binary file
 3. Search the file in the present working directory, and add the file to the file
